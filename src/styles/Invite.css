@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.invite-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.invite {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.invite-image {
+    width: 90%;
+    height: 90%;
+    border: 1px solid grey;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.invite-image:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    border-color: rgb(247, 149, 29); 
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
