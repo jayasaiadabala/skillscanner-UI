@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.partner-wrapper {
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.partner-welcome-head{
+    font-size: 4vw;
+    text-align: center;
+}
+
+.partner-current-note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-welcome-text {
+    color: rgb(0, 175, 0);
+    text-align: center;
+}
+
+.current-skills {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.current-skills button{
+    width: max-content;
+}
+
+.partner-skilldata{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.partner-skilldata form{
+    width: 90vw;
+}
+
+@media (max-width: 1024px) {
+    .partner-welcome-head {
+        font-size: 5vw;
+    }
+
+    .current-skills,
+    .partner-skilldata,
+    .partner-skilldata form {
+        width: 95vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .partner-current-note {
+        padding: 1rem;
+    }
+
+    .partner-welcome-head {
+        font-size: 7vw;
+    }
+
+    .current-skills {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .partner-skilldata,
+    .partner-skilldata form {
+        width: 80vw;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .partner-welcome-head {
+        font-size: 8vw;
+    }
+
+    .partner-welcome-text {
+        font-size: 4vw;
+    }
+}

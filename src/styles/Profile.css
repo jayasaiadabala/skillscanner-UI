@@ -1,0 +1,97 @@
+.profile-container {
+  max-width: 600px;
+  margin: 5vh auto;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.profile-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+  font-weight: bold;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile-row {
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.6rem 1rem;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.profile-row span:first-child {
+  font-weight: 600;
+  color: #495057;
+  width: 40%;
+  min-width: 120px;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+.not-available {
+  color: red;
+  font-weight: bold;
+}
+
+.skills {
+  color: green;
+}
+
+.delete-account {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    margin: 2vh 5vw;
+    padding: 1.5rem;
+  }
+
+  .profile-title {
+    font-size: 1.7rem;
+  }
+
+  .profile-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.8rem;
+  }
+
+  .profile-row span:first-child {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile-title {
+    font-size: 1.5rem;
+  }
+
+  .profile-container {
+    padding: 1rem;
+  }
+
+  .profile-row {
+    font-size: 1rem;
+  }
+}
